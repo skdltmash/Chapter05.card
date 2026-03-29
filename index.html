@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>안승현 — STEEL B 웹 명함</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600;700&family=Orbitron:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-pattern" aria-hidden="true"></div>
+  <main class="card" role="region" aria-label="안승현의 디지털 명함">
+    <div class="card__shine"></div>
+    <header class="card__header">
+      <div class="avatar" id="avatar">
+        <img
+          class="avatar__img"
+          src="steel-b-logo.png"
+          width="240"
+          height="240"
+          alt="STEEL B 브랜드 로고"
+        />
+      </div>
+      <div class="card__titles">
+        <h1 class="name">안승현</h1>
+        <p class="role">금속 가구 제작</p>
+        <p class="tagline">맞춤 금속 가구로 공간에 맞는 견고한 품질을 만듭니다.</p>
+      </div>
+    </header>
+    <ul class="contacts">
+      <li>
+        <a class="contact" href="mailto:steel-b@naver.com">
+          <span class="contact__icon" aria-hidden="true">✉</span>
+          <span class="contact__text">steel-b@naver.com</span>
+        </a>
+      </li>
+      <li>
+        <a class="contact" href="tel:01092138032">
+          <span class="contact__icon" aria-hidden="true">☎</span>
+          <span class="contact__text">010-9213-8032</span>
+        </a>
+      </li>
+      <li>
+        <a
+          class="contact contact--youtube"
+          href="https://www.youtube.com/@ai-study"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="유튜브 채널 @ai-study 새 탭에서 열기"
+        >
+          <span class="contact__icon contact__icon--youtube" aria-hidden="true">▶</span>
+          <span class="contact__text">유튜브 · @ai-study</span>
+        </a>
+      </li>
+    </ul>
+    <footer class="card__footer">
+      <button type="button" class="btn-copy" data-copy="steel-b@naver.com" title="이메일 복사">
+        이메일 복사
+      </button>
+      <span class="toast" id="toast" role="status" aria-live="polite"></span>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
